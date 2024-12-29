@@ -1,4 +1,3 @@
-// Game.cpp
 #include "Game.h"
 #include "Dice.h"
 #include <iostream>
