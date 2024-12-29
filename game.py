@@ -1,5 +1,4 @@
 # i intend to state the main game logic and player handling here 
-# game.py
 from player import Player
 from board import Board
 from dice import roll_dice
