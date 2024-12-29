@@ -9,7 +9,7 @@ SnakeAndLadderGame::SnakeAndLadderGame() {
     initializeBoard();
 }
 
-
+// trying to define how the game loop works and how players will take turns, so i intend to define the 
 
 void SnakeAndLadderGame::initializeBoard() {
     for (int i = 0; i < 100; i++) {
