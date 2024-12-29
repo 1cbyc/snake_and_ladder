@@ -1,18 +1,23 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+// Player.cpp
+#include "Player.h"
 
-#include <string>
-#include "Board.h"
+Player::Player(std::string name) : name(name), position(1) {}
 
-class Player {
-public:
-    Player(std::string name);
-    void move(int roll, Board& board);
-    int getPosition() const;
-    std::string getName() const;
-private:
-    std::string name;
-    int position;
-};
+void Player::move(int roll, Board& board) {
+    int newPosition = position + roll;
+    if (newPosition > 100) newPosition = position;
+    if (board.isSnake(newPosition)) {
+        newPosition = board.getSnakeEnd(newPosition);
+    } else if (board.isLadder(newPosition)) {
+        newPosition = board.getLadderEnd(newPosition);
+    }
+    position = newPosition;
+}
 
-#endif
+int Player::getPosition() const {
+    return position;
+}
+
+std::string Player::getName() const {
+    return name;
+}
