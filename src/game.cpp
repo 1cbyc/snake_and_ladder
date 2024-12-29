@@ -9,6 +9,8 @@ SnakeAndLadderGame::SnakeAndLadderGame() {
     initializeBoard();
 }
 
+
+
 void SnakeAndLadderGame::initializeBoard() {
     for (int i = 0; i < 100; i++) {
         board[i] = i + 1;
