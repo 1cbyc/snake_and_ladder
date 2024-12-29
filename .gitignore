@@ -116,7 +116,6 @@ Thumbs.db
 hi.exe
 hi
 hide.c
-main.cpp
 
 # Ignore build directories
 /build/
