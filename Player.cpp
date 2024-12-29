@@ -1,4 +1,3 @@
-// Player.cpp
 #include "Player.h"
 
 Player::Player(std::string name) : name(name), position(1) {}
