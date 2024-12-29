@@ -9,7 +9,26 @@ SnakeAndLadderGame::SnakeAndLadderGame() {
     initializeBoard();
 }
 
-// trying to define how the game loop works and how players will take turns, so i intend to define the 
+// trying to define how the game loop works and how players will take turns, so i intend to define the startGame method here:
+
+void SnakeAndLadderGame::startGame() {
+    std::cout << "Welcome to the Snake and Ladder Game!" << std::endl;
+
+    while (!isGameOver()) {
+        std::cout << "\nPlayer 1's turn:" << std::endl;
+        rollDice(1);
+        displayBoard();
+
+        if (isGameOver()) break;
+
+        std::cout << "\nPlayer 2's turn:" << std::endl;
+        rollDice(2);
+        displayBoard();
+    }
+
+    announceWinner();
+}
+
 
 void SnakeAndLadderGame::initializeBoard() {
     for (int i = 0; i < 100; i++) {
