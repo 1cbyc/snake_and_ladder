@@ -117,3 +117,62 @@ hi.exe
 hi
 hide.c
 main.cpp
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled executables
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Ignore dependency files
+*.d
+
+# Ignore debug and release folders
+/debug/
+/release/
+
+# Ignore IDE files (specific to some editors)
+.vscode/
+.idea/
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+Makefile.in
+Makefile.user
+
+# Ignore compiled libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.dylib
+
+# Ignore editor backup files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
