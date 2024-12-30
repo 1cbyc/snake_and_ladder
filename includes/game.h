@@ -2,7 +2,6 @@
 #define GAME_H
 #include "includes/game.h"
 
-
 class SnakeAndLadderGame {
 public:
     SnakeAndLadderGame();
