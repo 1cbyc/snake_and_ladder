@@ -13,7 +13,7 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 
    ```bash
    python snake_and_ladder.py
-
+   ```
 
 ## If you're a C++ coconutheaded dude, like me...
 #### this is how to run this shit
