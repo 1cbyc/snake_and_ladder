@@ -19,3 +19,5 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 #### this is how to run this shit
 
 First, you need:
+- C++17 or higher
+- A C++ compiler (e.g., `g++`)
