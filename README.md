@@ -29,7 +29,7 @@ I already did this command "g++ main.cpp Board.cpp Dice.cpp Player.cpp Game.cpp 
     ```
 
 
-How to Play
+About Playing the game
 
     Two players take turns rolling a dice and moving forward on the board.
     If a player lands on a snake, they move back. If they land on a ladder, they move forward.
