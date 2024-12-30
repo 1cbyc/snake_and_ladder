@@ -8,7 +8,7 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 
 1. just clone this repository to your local machine.
 2. install Python 3 if you don't have it.
-3. then, navigate to the python folder of this repo in the terminal.
+3. then, navigate to the python folder of this repo in terminal.
 4. and run this:
 
    ```bash
@@ -22,5 +22,5 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 - C++17 or higher
 - A C++ compiler (i used `g++`)
 
-I already did this command "g++ main.cpp Board.cpp Dice.cpp Player.cpp Game.cpp -o game" into a Makefile for you, so all you have to do after cloning this repo is to just cd into the cpp folder and the
+I already did this command "g++ main.cpp Board.cpp Dice.cpp Player.cpp Game.cpp -o game" into a Makefile for you, so all you have to do after cloning this repo is to just cd into the cpp folder of this repo and the
 
