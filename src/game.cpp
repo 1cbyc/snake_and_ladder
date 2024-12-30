@@ -4,6 +4,7 @@
 // #include "game.h"
 #include "../includes/game.h"
 
+
 SnakeAndLadderGame::SnakeAndLadderGame() {
     player1Pos = 1;
     player2Pos = 1;
