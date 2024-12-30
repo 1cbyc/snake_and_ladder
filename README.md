@@ -32,5 +32,5 @@ I already did this command "g++ main.cpp Board.cpp Dice.cpp Player.cpp Game.cpp 
 About playing this basic game
 
 - Two players take turns rolling a dice and moving forward on the board.
-    If a player lands on a snake, they move back. If they land on a ladder, they move forward.
-    The first player to reach square 100 wins the game.
+- If a player lands on a snake, they move back. If they land on a ladder, they move forward.
+-nThe first player to reach square 100 wins the game.
