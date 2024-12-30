@@ -22,3 +22,5 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 - C++17 or higher
 - A C++ compiler (i used `g++`)
 
+I already 
+
