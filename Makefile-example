@@ -1,0 +1,53 @@
+# CC = g++
+# CFLAGS = -Wall -std=c++17
+# SRC = src/main.cpp src/game.cpp
+# OBJ = main.o game.o
+# EXEC = game
+
+# $(EXEC): $(OBJ)
+# 	$(CC) $(CFLAGS) -o $(EXEC) $(OBJ)
+
+# main.o: src/main.cpp include/game.h
+# 	$(CC) $(CFLAGS) -c src/main.cpp
+
+# game.o: src/game.cpp include/game.h
+# 	$(CC) $(CFLAGS) -c src/game.cpp
+
+# clean:
+# 	rm -f $(OBJ) $(EXEC)
+
+# CC = g++
+# CFLAGS = -Wall -std=c++17 -I./includes
+# SRC = src/main.cpp src/game.cpp
+# OBJ = main.o game.o
+# EXEC = game
+
+# $(EXEC): $(OBJ)
+#     $(CC) $(CFLAGS) -o $(EXEC) $(OBJ)
+
+# main.o: src/main.cpp include/game.h
+#     $(CC) $(CFLAGS) -c src/main.cpp
+
+# game.o: src/game.cpp include/game.h
+#     $(CC) $(CFLAGS) -c src/game.cpp
+
+# clean:
+#     rm -f $(OBJ) $(EXEC)
+CC = g++
+CFLAGS = -Wall -std=c++17 -I./includes
+SRC = src/main.cpp src/game.cpp
+OBJ = main.o game.o
+EXEC = game
+
+$(EXEC): $(OBJ)
+	$(CC) $(CFLAGS) -o $(EXEC) $(OBJ)
+
+main.o: src/main.cpp includes/game.h
+	$(CC) $(CFLAGS) -c src/main.cpp
+
+game.o: src/game.cpp includes/game.h
+	$(CC) $(CFLAGS) -c src/game.cpp
+
+clean:
+	rm -f $(OBJ) $(EXEC)
+
