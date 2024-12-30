@@ -1,6 +1,6 @@
 #ifndef GAME_H
 #define GAME_H
-#include "includes/game.h"
+#include "../includes/game.h"
 
 class SnakeAndLadderGame {
 public:
