@@ -4,9 +4,9 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 
 
 ## If you're big on python then...
-## This is how to run this shii
+### This is how to run this shii
 
-1. Clone this repository to your local machine.
+1. just clone this repository to your local machine.
 2. Install Python 3 if you don't have it.
 3. Navigate to the project directory in the terminal.
 4. Run the following command:
