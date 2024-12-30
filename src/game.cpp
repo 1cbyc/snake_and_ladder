@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 // #include "game.h"
-#include "../includes/game.h"
+// #include "../includes/game.h"
 #include "includes/game.h"
 
 SnakeAndLadderGame::SnakeAndLadderGame() {
