@@ -25,7 +25,7 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 I already did this command "g++ main.cpp Board.cpp Dice.cpp Player.cpp Game.cpp -o game" into a Makefile for you, so all you have to do after cloning this repo is to just cd into the cpp folder of this repo and then run make. after you run make, you can then run the game directly like this:
 
     ```bash
-    make
+    ./game
     ```
 
 
