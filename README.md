@@ -8,7 +8,7 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 
 1. just clone this repository to your local machine.
 2. install Python 3 if you don't have it.
-3. then, navigate to the python dir in the terminal.
+3. then, navigate to the python folder of this repo in the terminal.
 4. and run this:
 
    ```bash
