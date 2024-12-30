@@ -17,3 +17,5 @@ wrote this in C++ six years ago, need to update this in python. i think i should
 
 ## If you're a C++ coconutheaded dude, like me...
 #### this is how to run this shit
+
+First, you need:
